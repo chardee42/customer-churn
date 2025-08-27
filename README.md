@@ -12,6 +12,9 @@ This project uses **Python, Pandas, Scikit-learn, and XGBoost** to model churn o
 - Results: **AUC = 0.83, Accuracy = 79%** on hold-out test set.  
 - Includes both an **API (FastAPI)** for programmatic access and a **Streamlit demo app** for non-technical users.
 
+[View Notebook with Output](https://github.com/chardee42/customer-churn/blob/main/output/customer_churn_output.pdf)
+
+
 ---
 
 ## 📂 Repository Structure
@@ -80,8 +83,6 @@ customer-churn/
 ---
 
 ## 📊 Results
-
-Link: [View Notebook with Output](https://github.com/chardee42/customer-churn/blob/main/output/customer_churn_output.pdf)
 
 * **AUC:** 0.83
 * **Accuracy:** 79%
