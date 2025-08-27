@@ -3,5 +3,5 @@ rem git branch -M main
 rem git push -u origin main
 
 git add .
-git commit -m "Update dir layout"
+git commit -m "Add files to dirs"
 git push origin main
