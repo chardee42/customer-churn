@@ -1,35 +1,21 @@
-# Customer Churn Prediction
+# Customer Churn Prediction (Telecom/SaaS)
 
-## 📌 Overview
-This project predicts customer churn using machine learning techniques in Python. 
-Churn prediction is critical for SaaS and telecom companies to reduce revenue loss and improve customer retention.
+Predicts which customers are likely to cancel service using **Python, Scikit-learn, XGBoost, and SHAP**. Includes a simple **FastAPI** endpoint and optional **Streamlit** demo.
 
-Dataset: [Telco Customer Churn (Kaggle)](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+## Dataset
+Telco Customer Churn (public Kaggle dataset). Place CSV in `data/` as `telco_churn.csv`.  
+*Note: no proprietary data used.*
 
-## 🛠️ Tools & Libraries
+## Tech
 - Python, Pandas, NumPy
-- Scikit-learn, XGBoost
-- Matplotlib, Seaborn
-- SHAP for explainability
-- (Optional) Streamlit for deployment
+- Scikit-learn, XGBoost, SHAP
+- Matplotlib/Seaborn
+- (Optional) FastAPI + Uvicorn, Streamlit
 
-## 🚀 Approach
-1. Exploratory Data Analysis
-2. Feature Engineering
-3. Model Training & Evaluation
-4. Feature Importance with SHAP
-5. Deployment (Streamlit)
-
-## 📈 Results
-- Best model: XGBoost with ROC-AUC of 0.87
-- Key churn predictors: contract type, monthly charges, support calls
-
-## 📸 Sample Visuals
-- ROC curve
-- SHAP summary plot
-- Streamlit app screenshot
-
-## 🎯 Future Work
-- Try deep learning models (TensorFlow, PyTorch)
-- Add time-series features
-- Deploy model via Docker container
+## Quickstart
+```bash
+pip install -r requirements.txt
+python -m src.train --csv_path data/telco_churn.csv --model_path artifacts/xgb_model.json
+python -m src.evaluate --csv_path data/telco_churn.csv --model_path artifacts/xgb_model.json
+uvicorn api.app:app --reload  # optional API
+streamlit run streamlit_app.py # optional demo
