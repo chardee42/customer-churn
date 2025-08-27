@@ -62,7 +62,7 @@ Sample screenshot:
    ```bash
    git clone https://github.com/YOUR-USERNAME/customer-churn.git
    cd customer-churn
-````
+
 
 2. Create environment & install dependencies:
 
