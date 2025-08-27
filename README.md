@@ -1,5 +1,3 @@
-"# customer-churn" 
-
 # Customer churn
 
-Here is the fun stuff.
+Here is the fun stuff 11:56.
