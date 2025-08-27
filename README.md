@@ -81,9 +81,13 @@ customer-churn/
 
 ## 📊 Results
 
+Link: View Notebook with Output
+
 * **AUC:** 0.83
 * **Accuracy:** 79%
 * **Top Features:** contract type, tenure, internet service, monthly charges.
+
+
 
 ---
 
