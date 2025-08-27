@@ -3,5 +3,5 @@ rem git branch -M main
 rem git push -u origin main
 
 git add .
-git commit -m "Update readme"
+git commit -m "Update dir layout"
 git push origin main
