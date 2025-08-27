@@ -48,14 +48,6 @@ customer-churn/
 
 ---
 
-## 🖼️ Demo
-👉 **[Live Streamlit Demo](https://share.streamlit.io/YOUR-USERNAME/customer-churn/main/streamlit_app.py)**  
-*(replace with your link once deployed)*
-
-Sample screenshot:  
-![Streamlit Demo Screenshot](docs/demo_screenshot.png)
-
----
 
 ## ⚙️ Installation & Usage
 1. Clone this repo:
