@@ -1,4 +1,4 @@
-```markdown
+
 # Customer Churn Prediction (XGBoost + Python)
 
 Predicting which customers are likely to churn is critical for subscription-based businesses.  
