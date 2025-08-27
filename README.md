@@ -81,7 +81,7 @@ customer-churn/
 
 ## 📊 Results
 
-Link: [View Notebook with Output](https://github.com/chardee42/customer-churn/blob/main/output/01_eda_and_model.html)
+Link: [View Notebook with Output](https://github.com/chardee42/customer-churn/blob/main/output/customer_churn_output.pdf)
 
 * **AUC:** 0.83
 * **Accuracy:** 79%
