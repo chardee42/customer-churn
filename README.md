@@ -81,7 +81,7 @@ customer-churn/
 
 ## 📊 Results
 
-Link: View Notebook with Output
+Link: [View Notebook with Output](https://linkedin.com/in/chrishardeedataengineer)
 
 * **AUC:** 0.83
 * **Accuracy:** 79%
